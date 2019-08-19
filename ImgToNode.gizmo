@@ -1,5 +1,5 @@
 Group {
- name ImgToNode
+ name GM_ImgToNode
  tile_color 0xffc428ff
  label "\[file tail \[value fname]]"
  selected true
@@ -13,7 +13,7 @@ Group {
  addUserKnob {22 cl_sel l "<b><font color=#D3BA4F>Clear Selected" T "### ImgToNode_clear ##\n\nnuke.root().begin()\n\nnodes = nuke.selectedNodes()\n\nfor node in nodes:\n    node.knob('icon').setValue('')\n\nnuke.root().end()\n\n###" +STARTLINE}
  addUserKnob {26 ""}
  addUserKnob {26 TEXT l "" +STARTLINE T "<font color=#808080 size=\"5\" >1.01 version</font>"}
- addUserKnob {26 HeadlineB l "" +STARTLINE T "<font color=#808080 size=\"2\">ImgToNode© by Attila Gasparetz</font>"}
+ addUserKnob {26 HeadlineB l "" +STARTLINE T "<font color=#808080 size=\"2\">GM_ImgToNode© by Attila Gasparetz</font>"}
 }
  Input {
   inputs 0
