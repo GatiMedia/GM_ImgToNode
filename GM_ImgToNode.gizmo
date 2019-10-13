@@ -1,10 +1,11 @@
 Group {
+ inputs 0
  name GM_ImgToNode
  tile_color 0xffc428ff
  label "\[file tail \[value fname]]"
  selected true
- xpos 3920
- ypos 1838
+ xpos 400
+ ypos -226
  addUserKnob {20 User}
  addUserKnob {2 fname l "<b><font color=#D3BA4F>File name"}
  addUserKnob {26 ""}
@@ -15,13 +16,8 @@ Group {
  addUserKnob {26 TEXT l "" +STARTLINE T "<font color=#808080 size=\"5\" >1.01 version</font>"}
  addUserKnob {26 HeadlineB l "" +STARTLINE T "<font color=#808080 size=\"2\">GM_ImgToNode© by Attila Gasparetz</font>"}
 }
- Input {
-  inputs 0
-  name Input1
-  xpos 400
-  ypos 182
- }
  NoOp {
+  inputs 0
   name DoingNothing
   xpos 400
   ypos 254
